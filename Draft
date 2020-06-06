@@ -1,0 +1,9 @@
+"""
+                   if SenType == "VOA" or SenType == "VO" or SenType == "VA" :
+                       reverse_array_A = ArrSen[: :-1]
+                       for i in reverse_array_A :
+                           if i < V_ID and str(Sheet.cell(i, 3).value) == "NOUN" and str(Sheet.cell(i - 1, 3).value) != "NOUN" and CheckS==0:
+                               S = str(Sheet.cell(i, 1).value)
+                               print(S)
+                               CheckS=1
+                   """
